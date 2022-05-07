@@ -47,7 +47,7 @@ function App() {
                 <Redirect to="/index" />
                 <Redirect from="/" to="/index" />
 
-                //exact
+                
                 <Route path="" exact>
                     
                 </Route>

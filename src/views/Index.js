@@ -27,6 +27,7 @@ import Download from "./index-sections/Download.js";
 
 // dev implemented
 import { ContactUS } from "./ContactUs.js";
+import CDManagement from "./CDManagement.js";
 
  
 function Index() {
@@ -43,16 +44,7 @@ function Index() {
   });
   return (
     <>
-      <IndexNavbar />
-      <div className="wrapper">
-        <IndexHeader />
-        <div className="main">
-          <Images />
-          
-          <ContactUS />
-        </div>
-        <DarkFooter />
-      </div>
+      <CDManagement/>
     </>
   );
 }
