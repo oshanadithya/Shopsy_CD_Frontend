@@ -27,8 +27,9 @@ import Download from "./index-sections/Download.js";
 
 // dev implemented
 import { ContactUS } from "./ContactUs.js";
+import CDManagement from "./CDManagement.js";
 
- 
+
 function Index() {
   React.useEffect(() => {
     document.body.classList.add("index-page");
@@ -43,15 +44,7 @@ function Index() {
   });
   return (
     <>
-      <IndexNavbar />
-      <div className="wrapper">
-        <IndexHeader />
-        <div className="main">
-          
-        
-        </div>
-        <DarkFooter />
-      </div>
+      <CDManagement/>
     </>
   );
 }
