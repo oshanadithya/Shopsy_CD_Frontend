@@ -16,6 +16,7 @@ import LoginPage from "views/examples/LoginPage.js";
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 
+
 function App() {
 
     /*useEffect(() => {
@@ -46,7 +47,10 @@ function App() {
                 />
                 <Redirect to="/index" />
                 <Redirect from="/" to="/index" />
-
+                
+                <Route path="/cus-msg" exact>
+                    
+                </Route>
                 
                 <Route path="" exact>
                     
