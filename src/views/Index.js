@@ -47,9 +47,8 @@ function Index() {
       <div className="wrapper">
         <IndexHeader />
         <div className="main">
-          <Images />
           
-          <ContactUS />
+        
         </div>
         <DarkFooter />
       </div>
