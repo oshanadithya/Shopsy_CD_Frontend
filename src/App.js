@@ -15,6 +15,7 @@ import NucleoIcons from "views/NucleoIcons.js";
 import LoginPage from "views/examples/LoginPage.js";
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
+import { msgRetrieve } from "views/msgRetrieve";
 
 
 function App() {
@@ -49,7 +50,7 @@ function App() {
                 <Redirect from="/" to="/index" />
                 
                 <Route path="/cus-msg" exact>
-                    
+                    <msgRetrieve/>
                 </Route>
                 
                 <Route path="" exact>

@@ -19,7 +19,7 @@ function CDManagement () {
     })*/
 
     function handleClickMsg() {
-        history.push("");
+        history.push("/cus-msg");
     }
 
     return (
