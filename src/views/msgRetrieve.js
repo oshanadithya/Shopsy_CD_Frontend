@@ -66,7 +66,7 @@ function msgRetrieve () {
                     <th scope = "col"> Name </th>
                     <th scope = "col"> Email Addrers </th>
                     <th scope = "col"> Subject </th>
-                    <th scope = "col"> Message </th>
+                    <th scope = "col"> Messages </th>
 
                     </thead>
                     <tbody>
